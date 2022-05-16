@@ -3,3 +3,115 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: #23252c;
+  font-family: 'Inter', sans-serif;
+  width: 317px;
+}
+
+.my-image {
+  width: 317px;
+}
+
+.my-name {
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.my-role {
+  text-align: center;
+  color: #f3bf99;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.my-website {
+  text-align: center;
+  color: #f5f5f5;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 10px;
+}
+
+.btn-email {
+  background-color: #ffffff;
+  padding: 9px, 13px, 9px, 11px;
+  border-radius: 6px;
+  border: none;
+  margin-left: 26px;
+  width: 115px;
+  height: 34px;
+  color: #374151;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn-linkedin {
+  background-color: #5093e2;
+  padding: 9px, 13px, 9px, 11px;
+  border-radius: 6px;
+  border: none;
+  margin-left: 22px;
+  width: 115px;
+  height: 34px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.about-heading {
+  color: #f5f5f5;
+  padding-left: 26px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.interests-header {
+  color: #f5f5f5;
+  padding-left: 26px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-me {
+  color: #dcdcdc;
+  padding-left: 26px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.my-interests {
+  color: #dcdcdc;
+  padding-left: 26px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.footer-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #161619;
+}
